@@ -1,0 +1,30 @@
+Hello Tuan Git
+Upload to git
+
+Đến nơi chứa thư mục chuột phải git bash here
+git init
+git add .										(add tất cả)
+git commit -m ""									Nội dung sửa tương tự như comment trong code(phải có)
+git remote add origin https://github.com/kag2002/RepoName.git	copy link trong respository
+git push origin master								Đẩy lên nhánh master vào git sang nhánh master để kiểm tra code
+
+
+Clone from git
+git clone https://github.com/kag2002/RepoName.git
+
+
+Update git
+
+Đến nơi chứa thư mục chuột phải git bash here
+git add .					Thêm tất cả thay đổi
+git commit -m ""				Nội dung sửa
+git push origin master			Đẩy lên main
+
+
+Lấy từ branch cụ thể 
+git clone -b master https://github.com/kag2002/RepoName.git 	Lấy từ nhánh master của Repossitory
+
+Xóa dấu vết git cũ khi clone
+Vào hẳn trong thư mục lấy đường link địa chỉ
+rm -rf C:\Users\Admin\Documents\FileGit\TKWebLichHoc\Project.git	Xóa của Folder Project
+
